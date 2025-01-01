@@ -24,16 +24,16 @@ mod test {
         let url = "https://sspai.com/feed";
         let result = get_first_item(url).await.unwrap();
         assert!(
-            !result.title().is_none()
-                || !result.link().is_none()
-                || !result.description().is_none()
-                || !result.author().is_none()
+            result.title().is_some()
+                || result.link().is_some()
+                || result.description().is_some()
+                || result.author().is_some()
                 || !result.categories().is_empty()
-                || !result.comments().is_none()
-                || !result.enclosure().is_none()
-                || !result.guid().is_none()
-                || !result.pub_date().is_none()
-                || !result.source().is_none()
+                || result.comments().is_some()
+                || result.enclosure().is_some()
+                || result.guid().is_some()
+                || result.pub_date().is_some()
+                || result.source().is_some()
         );
     }
 }
