@@ -2,6 +2,6 @@
     "recommendations": [
         "rust-lang.rust-analyzer",
         "EditorConfig.EditorConfig",
-        "elagil.pre-commit-helper",
+        "elagil.pre-commit-helper"
     ]
 }

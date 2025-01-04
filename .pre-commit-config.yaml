@@ -56,3 +56,11 @@ repos:
                     "-D",
                     "warnings",
                 ]
+          - id: prettier
+            name: prettier
+            description: Format files with prettier.
+            entry: npx prettier
+            language: system
+            types: [javascript]
+            pass_filenames: false
+            args: ["--write"]
