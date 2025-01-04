@@ -1,0 +1,33 @@
+{
+    "cSpell.words": [
+        "armv",
+        "bitflags",
+        "clippy",
+        "dbnavigator",
+        "demangle",
+        "discrim",
+        "Dwarnings",
+        "errno",
+        "fastrand",
+        "gimli",
+        "gnueabihf",
+        "gnullvm",
+        "ionide",
+        "libc",
+        "memchr",
+        "miniz",
+        "minreq",
+        "mpeltonen",
+        "msvc",
+        "Qube",
+        "replstate",
+        "rustc",
+        "rustix",
+        "rustup",
+        "schannel",
+        "shlex",
+        "sonarlint",
+        "taplo",
+        "vcpkg"
+    ]
+}
