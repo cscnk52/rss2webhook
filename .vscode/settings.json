@@ -9,6 +9,7 @@
         "Dwarnings",
         "errno",
         "fastrand",
+        "getrandom",
         "gimli",
         "gnueabihf",
         "gnullvm",
@@ -28,6 +29,7 @@
         "shlex",
         "sonarlint",
         "taplo",
-        "vcpkg"
+        "vcpkg",
+        "wasi"
     ]
 }
