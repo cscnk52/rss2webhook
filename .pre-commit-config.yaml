@@ -64,3 +64,11 @@ repos:
             types: [javascript]
             pass_filenames: false
             args: ["--write"]
+          - id: taplo
+            name: taplo
+            description: Format files with taplo.
+            entry: taplo fmt
+            language: system
+            types: [toml]
+            pass_filenames: false
+            args: ["--"]
