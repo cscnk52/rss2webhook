@@ -1,6 +1,7 @@
 use std::error::Error;
 mod rss;
 use rss::{fetch_rss, get_first_item};
+mod json;
 
 #[tokio::main]
 async fn main() -> Result<(), Box<dyn Error>> {

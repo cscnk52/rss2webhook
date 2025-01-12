@@ -151,3 +151,5 @@ target/
 
 # End of https://www.toptal.com/developers/gitignore/api/rust,visualstudiocode,intellij
 
+# Ignore the data directory
+data/*.json

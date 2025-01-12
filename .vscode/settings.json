@@ -26,6 +26,7 @@
         "rustix",
         "rustup",
         "schannel",
+        "serde",
         "shlex",
         "sonarlint",
         "taplo",

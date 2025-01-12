@@ -12,3 +12,6 @@ tokio = { version = "1.43.0", default-features = false, features = [
 minreq = { version = "2.13.0", default-features = false, features = [
   "https-native",
 ] }
+serde_json = { version = "1.0.135", default-features = false, features = [
+  "alloc",
+] }

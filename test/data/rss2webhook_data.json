@@ -1,0 +1,14 @@
+[
+    {
+        "rss_url": "https://example.com/rss1.xml",
+        "interval": 15
+    },
+    {
+        "rss_url": "https://example.com/rss2.xml",
+        "interval": 30
+    },
+    {
+        "rss_url": "https://example.com/rss3.xml",
+        "interval": 60
+    }
+]
